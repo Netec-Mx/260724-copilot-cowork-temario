@@ -1,2 +1,21 @@
-# 260724-copilot-cowork-temario
-Laboratorios del curso 260724-copilot-cowork-temario
+# Copilot Cowork: De la productividad personal a la ejecución inteligente del trabajo
+
+Comprender cómo utilizar Copilot Cowork para delegar tareas complejas, coordinar actividades entre herramientas de Microsoft 365 y automatizar procesos cotidianos utilizando el contexto de trabajo existente en Outlook, Teams, archivos y reuniones.
+
+## Estructura
+
+- `CapituloXX/README.md`: guía de laboratorio por capítulo.
+
+## Lista de laboratorios
+
+### Capítulo 1
+
+- [Taller práctico. El verdadero potencial de Copilot Cowork](Capitulo01/README.md#taller-práctico-el-verdadero-potencial-de-copilot-cowork)
+  - Descripción: Durante este módulo el instructor desarrollará escenarios empresariales completos que involucren múltiples fuentes de información, diferentes aplicaciones de Microsoft 365 y procesos que normalmente requerirían varias horas de trabajo manual. De la reunión a la ejecución: a partir de una reunión realizada en Microsoft Teams, el instructor demostrará cómo Copilot Cowork puede analizar la transcripción, el chat y el contexto relacionado para identificar acuerdos, decisiones, riesgos y compromisos adquiridos por los participantes. Posteriormente, mostrará cómo generar automáticamente un resumen ejecutivo orientado a la toma de decisiones y una lista estructurada de acciones con sus respectivos responsables. A continuación, se demostrará cómo Cowork puede apoyar la creación de tareas de seguimiento, preparar comunicaciones para los involucrados mediante Outlook, elaborar un plan de acción consolidado y programar reuniones de revisión para dar continuidad a los acuerdos establecidos. Finalmente, se mostrará cómo Cowork puede realizar revisiones periódicas programadas sobre la información disponible, consolidar avances reportados y generar actualizaciones de estado que permitan al usuario identificar oportunamente actividades pendientes, riesgos emergentes o posibles retrasos. Del correo a la coordinación: a partir de una cadena de correos relacionada con una solicitud estratégica o crítica para el negocio, el instructor demostrará cómo Copilot Cowork puede comprender el contexto del requerimiento, identificar dependencias, localizar conversaciones relacionadas en Outlook y Teams, así como recuperar documentación relevante almacenada en distintas fuentes corporativas. Con la información recopilada, Cowork consolidará antecedentes, resumirá los elementos clave del caso y elaborará una propuesta de respuesta alineada con el contexto y los objetivos de la organización. Posteriormente, se mostrará cómo generar un plan de trabajo con actividades sugeridas, responsables potenciales, hitos de seguimiento y comunicaciones de coordinación para los participantes involucrados. Finalmente, se demostrará cómo Cowork puede ejecutar revisiones programadas del caso, identificar nuevas respuestas, cambios relevantes o información adicional generada en el proceso, y preparar actualizaciones ejecutivas para mantener informados a los responsables sin necesidad de realizar búsquedas manuales constantes. De los datos a la toma de decisiones: a partir de un archivo de Excel con indicadores operativos, financieros o comerciales, el instructor demostrará cómo Copilot Cowork puede identificar tendencias, anomalías, variaciones significativas y comportamientos relevantes dentro de los datos analizados. Posteriormente, se mostrará cómo Cowork puede complementar el análisis localizando correos electrónicos, conversaciones de Teams, documentos corporativos y otros elementos relacionados que permitan comprender el contexto completo detrás de los resultados observados. Gracias a esta correlación de información, los participantes podrán entender no solamente qué está ocurriendo en los indicadores, sino también cuáles podrían ser sus posibles causas y consecuencias. Con base en la información recopilada, Cowork generará explicaciones ejecutivas, propondrá acciones de mejora, sugerirá áreas o responsables involucrados y preparará comunicaciones para las distintas partes interesadas. Finalmente, se demostrará cómo programar revisiones periódicas de los indicadores para generar reportes de seguimiento y destacar oportunamente cambios relevantes o desviaciones que requieran atención por parte del negocio.
+  - Duración estimada: 70 min
+
+## Flujo de colaboración
+
+- Trabajar en `changes_course`.
+- Crear Pull Request hacia `main`.
+- Merge por `Squash and merge`.
