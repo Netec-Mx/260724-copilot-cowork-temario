@@ -2,19 +2,27 @@
 
 ## Metadatos
 
-| Campo            | Detalle                                      |
-|------------------|----------------------------------------------|
-| **Duración**     | 70 minutos                                   |
-| **Complejidad**  | Media                                        |
-| **Nivel Bloom**  | Aplicar (Apply)                              |
-| **Módulo**       | 1.0 — Fundamentos de Copilot Cowork          |
-| **Versión**      | 1.0                                          |
+| Campo | Detalle |
+|---|---|
+| **Duración** | 70 minutos |
+| **Complejidad** | Media |
+| **Nivel Bloom** | Aplicar y analizar |
+| **Módulo** | 2. Taller práctico: El verdadero potencial de Copilot Cowork |
+| **Modalidad** | Demostración guiada o práctica acompañada |
+| **Herramienta principal** | Microsoft 365 Copilot Cowork |
+| **Caso ficticio** | Comercializadora Valle Azul S.A.S. — Expansión del servicio Compra y Recoge |
+| **Versión** | 1.0 |
 
 ---
 
 ## Descripción General
 
-En este taller práctico los participantes explorarán de primera mano la diferencia fundamental entre Copilot Chat y Copilot Cowork: mientras el primero genera contenido bajo demanda, el segundo **actúa como un agente de ejecución** capaz de completar tareas complejas y multietapa de forma autónoma dentro del ecosistema Microsoft 365. A través de tres casos de uso empresariales de alto impacto —análisis de datos en Excel, gestión de correos en Outlook y planificación de proyectos en Planner— los participantes experimentarán directamente el modelo de delegación inteligente de trabajo que define a Copilot Cowork. El taller cierra con una sesión de reflexión estructurada para consolidar buenas prácticas personales de delegación.
+En este taller práctico utilizarás Microsoft 365 Copilot Cowork para desarrollar tres escenarios empresariales conectados entre sí. La práctica comienza con una reunión de seguimiento, continúa con una solicitud estratégica recibida por correo y finaliza con el análisis de indicadores operativos, comerciales y financieros.
+
+En cada escenario agregarás fuentes de Microsoft 365, delegarás una tarea de varios pasos, revisarás el progreso de Cowork, validarás los resultados, aprobarás acciones y configurarás una revisión programada. El propósito es convertir información dispersa en decisiones, planes de acción, comunicaciones y seguimiento continuo.
+
+La empresa, las personas, los correos, las reuniones y los datos utilizados en esta práctica son ficticios.
+
 
 > ⚠️ **Aviso de privacidad:** Durante todo el laboratorio, utiliza **exclusivamente los archivos de práctica proporcionados por el facilitador**. No ingreses datos reales, confidenciales o sensibles de tu organización en ninguna instrucción o prompt de Copilot.
 
@@ -24,10 +32,14 @@ En este taller práctico los participantes explorarán de primera mano la difere
 
 Al finalizar este laboratorio serás capaz de:
 
-- [ ] Distinguir conceptualmente y en la práctica las diferencias entre Copilot Chat y Copilot Cowork, identificando el tipo de tarea adecuado para cada herramienta.
-- [ ] Aplicar el modelo de delegación de trabajo complejo utilizando Copilot Cowork para ejecutar al menos tres tareas empresariales de alto impacto dentro del ecosistema Microsoft 365.
-- [ ] Construir instrucciones estructuradas (prompts de delegación) siguiendo las buenas prácticas para asignar trabajo complejo a Copilot Cowork de manera efectiva.
-- [ ] Evaluar los resultados generados por Copilot Cowork comparándolos con outputs de Copilot Chat, identificando ventajas, limitaciones y casos de uso óptimos para cada herramienta.
+- [ ] Analizar una reunión, su conversación relacionada y el contexto del caso para identificar acuerdos, decisiones, riesgos y compromisos.
+- [ ] Generar un resumen ejecutivo y una lista estructurada de acciones con responsables, fechas, dependencias y criterios de cierre.
+- [ ] Preparar borradores de correo, mensajes de coordinación y una reunión de seguimiento, revisando cada acción antes de aprobarla.
+- [ ] Consolidar una solicitud estratégica recibida por correo con información relacionada de Teams, OneDrive y Excel.
+- [ ] Detectar tendencias, anomalías y variaciones significativas en un archivo de indicadores.
+- [ ] Relacionar los resultados numéricos con evidencias procedentes de reuniones, conversaciones y correos.
+- [ ] Configurar revisiones programadas que destaquen cambios, riesgos, retrasos y decisiones pendientes.
+- [ ] Validar que los resultados diferencien hechos confirmados, inferencias e información por confirmar.
 
 ---
 
@@ -35,24 +47,30 @@ Al finalizar este laboratorio serás capaz de:
 
 ### Conocimientos Previos
 
-| Área                       | Nivel Requerido                                                                                   |
-|----------------------------|---------------------------------------------------------------------------------------------------|
-| Microsoft Teams            | Básico — navegación por canales, chats y pestañas de aplicaciones                                |
-| Microsoft Outlook          | Básico — lectura, redacción y organización de correos electrónicos                               |
-| Microsoft Excel            | Básico — apertura de archivos, navegación entre hojas, comprensión de tablas de datos            |
-| Microsoft Planner          | Básico — acceso a planes existentes o permisos para crear uno nuevo                              |
-| Conceptos del Módulo 1.0   | Haber revisado la Lección 1.1 o participado en la sesión introductoria del curso                 |
+| Área | Nivel Requerido |
+|---|---|
+| Uso de Microsoft 365 Copilot | Básico — envío de solicitudes, incorporación de fuentes y revisión de resultados |
+| Microsoft Teams | Básico — reuniones, chats y canales |
+| Microsoft Outlook | Básico — lectura de cadenas, borradores y calendario |
+| Microsoft Excel | Básico — apertura de libros, tablas y hojas |
+| Microsoft Word | Básico — apertura y revisión de documentos |
+| OneDrive o SharePoint | Básico — carga, búsqueda y apertura de archivos |
 
 ### Acceso y Licencias Requeridas
 
-| Recurso                                      | Estado Requerido                                                    |
-|----------------------------------------------|---------------------------------------------------------------------|
-| Licencia Microsoft 365 Copilot con Cowork    | ✅ Activa y verificada al menos 24 horas antes del laboratorio       |
-| Microsoft Teams (versión más reciente)       | ✅ Instalado y con sesión iniciada en el tenant corporativo          |
-| Microsoft Outlook (M365 Apps)                | ✅ Configurado con cuenta organizacional                             |
-| Microsoft Excel (M365 Apps)                  | ✅ Instalado con acceso a OneDrive/SharePoint del tenant             |
-| Microsoft Planner                            | ✅ Accesible vía web o integración en Teams                          |
-| Archivos de práctica del facilitador         | ✅ Descargados en OneDrive antes de iniciar el laboratorio           |
+| Recurso | Estado Requerido |
+|---|---|
+| Licencia de Microsoft 365 Copilot | ✅ Activa y asignada al participante |
+| Cowork habilitado en el entorno | ✅ Confirmado por el administrador o el facilitador |
+| Facturación basada en uso para Cowork | ✅ Habilitada por el administrador |
+| Anthropic como subprocesador | ✅ Habilitado en el tenant |
+| Cuenta organizacional de Microsoft 365 | ✅ Con sesión iniciada |
+| Microsoft Teams | ✅ Acceso a reuniones y conversaciones del laboratorio |
+| Microsoft Outlook | ✅ Acceso al correo y calendario del laboratorio |
+| OneDrive o SharePoint | ✅ Permiso para cargar y consultar los archivos |
+| Aplicaciones Word y Excel | ✅ Disponibles en versión web o de escritorio |
+| Materiales del repositorio | ✅ Descargados antes de comenzar |
+
 
 ---
 
@@ -69,48 +87,85 @@ Al finalizar este laboratorio serás capaz de:
 
 ### Software Requerido
 
-| Aplicación                  | Versión Mínima                            |
-|-----------------------------|-------------------------------------------|
-| Microsoft Teams             | Canal actual (versión más reciente)       |
-| Microsoft Outlook           | M365 Apps (versión más reciente)          |
-| Microsoft Excel             | M365 Apps (versión más reciente)          |
-| Microsoft Planner           | Versión web o integración en Teams        |
-| Microsoft Edge / Chrome     | Edge 120+ / Chrome 120+                   |
+| Aplicación | Requisito |
+|---|---|
+| Microsoft 365 Copilot | Aplicación web en `https://m365.cloud.microsoft` o aplicación de escritorio |
+| Microsoft Teams | Versión web o de escritorio con sesión iniciada |
+| Microsoft Outlook | Versión web o de escritorio con sesión iniciada |
+| Microsoft Word | Versión web o de escritorio |
+| Microsoft Excel | Versión web o de escritorio |
+| Microsoft Edge o Google Chrome | Versión vigente compatible con Microsoft 365 |
+
+### Archivos del Taller
+
+| Archivo | Uso |
+|---|---|
+| `materiales/01_Reunion_y_contexto.docx` | Contexto empresarial, guion completo de la reunión, participantes y conversación posterior de Teams |
+| `materiales/Correos/*.eml` | Siete mensajes ficticios preparados para importación masiva en el nuevo Outlook |
+| `materiales/03_Indicadores_operativos.xlsx` | Indicadores operativos, comerciales, financieros, tecnológicos y de experiencia del cliente |
 
 ### Preparación del Entorno Antes de Comenzar
 
-Realiza los siguientes pasos de configuración **antes** de iniciar los ejercicios. Tiempo estimado: 5 minutos.
+Realiza esta preparación antes de iniciar los escenarios. El tiempo asignado dentro del taller es de **5 minutos**.
 
-**1. Verificar acceso a Copilot Cowork en Teams:**
+#### 1. Preparar la carpeta de trabajo
 
-```
-1. Abre Microsoft Teams.
-2. En la barra lateral izquierda, busca el ícono de Copilot (icono de chispa/estrella).
-3. Haz clic en él y verifica que aparezca la opción "Cowork" o una interfaz de agente 
-   diferenciada del chat estándar de Copilot.
-4. Si no aparece la opción Cowork, notifica al facilitador antes de continuar.
-```
-
-**2. Cargar los archivos de práctica en OneDrive:**
-
-```
-1. Abre un navegador y accede a: https://onedrive.live.com (cuenta organizacional)
-2. Crea una carpeta llamada: Lab-Cowork-Practica
-3. Sube los tres archivos proporcionados por el facilitador:
-   - ventas_ficticias_Q3.xlsx
-   - correos_practica_template.oft (o el formato indicado por el facilitador)
-   - descripcion_proyecto_ficticio.docx
-4. Confirma que los tres archivos son visibles en la carpeta antes de continuar.
+```text
+1. Abre OneDrive con tu cuenta organizacional.
+2. Crea una carpeta llamada: Taller-Cowork-Expansion.
+3. Abre la carpeta materiales del repositorio.
+4. Carga en OneDrive:
+   - 01_Reunion_y_contexto.docx
+   - 03_Indicadores_operativos.xlsx
+5. Confirma que ambos archivos pueden abrirse desde el navegador.
 ```
 
-**3. Abrir aplicaciones necesarias en paralelo:**
+#### 2. Preparar las fuentes de Microsoft 365
 
+Para una demostración completa, prepara las fuentes antes de la sesión.
+
+```text
+Reunión y Teams
+1. Crea una reunión titulada:
+   Expansión Compra y Recoge - Seguimiento operativo.
+2. Inicia la reunión y activa la transcripción en español.
+3. Utiliza la sección "Transcripción sugerida" de 01_Reunion_y_contexto.docx
+   como guion.
+4. Finaliza la reunión y comprueba que la transcripción esté disponible.
+5. Publica en el chat de la reunión los mensajes de la sección
+   "Conversación posterior en Teams".
+6. Conserva 01_Reunion_y_contexto.docx en OneDrive como contexto de referencia.
+
+Outlook - nuevo Outlook para Windows
+1. Extrae los siete archivos de materiales/Correos en una carpeta local.
+2. Asegúrate de que los archivos .eml estén directamente en esa carpeta,
+   no dentro de subcarpetas.
+3. En el nuevo Outlook, abre Configuración > General > Importar.
+   En algunas versiones la ruta aparece como Configuración > Archivos > Importar.
+4. Selecciona Iniciar importación.
+5. Selecciona la carpeta que contiene los siete archivos .eml.
+6. Elige la cuenta y la carpeta de destino.
+7. Selecciona Importar y confirma que la conversación aparece con el asunto:
+   Expansión Compra y Recoge - Decisiones y plan de estabilización.
+
+Excel
+1. Conserva 03_Indicadores_operativos.xlsx en OneDrive.
+2. Abre el libro y confirma que aparecen las hojas Indicadores, Metas,
+   Tecnologia, Presupuesto, Resumen y Diccionario.
 ```
-Abre y mantén activas las siguientes aplicaciones (minimizadas si es necesario):
+
+Los archivos también pueden adjuntarse directamente en Cowork cuando la integración con una fuente de Microsoft 365 no esté disponible durante la práctica.
+
+#### 3. Abrir las aplicaciones necesarias
+
+```text
+Mantén abiertas las siguientes aplicaciones:
+- Microsoft 365 Copilot Cowork
 - Microsoft Teams
 - Microsoft Outlook
+- OneDrive
+- Microsoft Word
 - Microsoft Excel
-- Microsoft Edge con Planner: https://tasks.office.com
 ```
 
 ---
@@ -119,597 +174,692 @@ Abre y mantén activas las siguientes aplicaciones (minimizadas si es necesario)
 
 ---
 
-### Parte 1: Exploración de la Interfaz — Copilot Chat vs. Copilot Cowork
+### Parte 1: Preparar la sesión de Copilot Cowork
 
-**Tiempo estimado:** 15 minutos
+**Tiempo estimado:** 5 minutos
 
----
+#### Paso 1.1 — Abrir Cowork y crear una tarea
 
-#### Paso 1.1 — Acceder a Copilot Chat y registrar sus características
-
-**Objetivo:** Familiarizarse con la interfaz de Copilot Chat como punto de referencia para la comparación posterior.
+**Objetivo:** iniciar una sesión y reconocer los elementos que se utilizarán durante los tres escenarios.
 
 **Instrucciones:**
 
-1. En Microsoft Teams, haz clic en el ícono de **Copilot** en la barra lateral izquierda.
-2. Verifica que estás en la vista de **Copilot Chat** (interfaz conversacional estándar).
-3. En el cuadro de texto, escribe exactamente el siguiente prompt y presiona **Enter**:
-
-```
-Resume brevemente qué hace un gerente de proyectos en una empresa de tecnología.
-```
-
-4. Observa y anota en tu cuaderno o en un documento de texto:
-   - ¿Qué tipo de respuesta recibiste? (texto, lista, párrafo)
-   - ¿Cuántos pasos realizó Copilot para responder?
-   - ¿Accedió a alguna aplicación o dato de tu organización?
-   - ¿Cuánto tiempo tardó en responder?
-
-5. Escribe un segundo prompt para explorar los límites de Copilot Chat:
-
-```
-Revisa mis correos de la última semana en Outlook, identifica los tres temas 
-más urgentes y redacta un resumen ejecutivo para mi jefe.
-```
-
-6. Anota la respuesta: ¿Copilot Chat ejecutó la tarea o simplemente ofreció orientación general?
+1. Abre `https://m365.cloud.microsoft` o la aplicación de escritorio de Microsoft 365 Copilot.
+2. Selecciona **Cowork** en la parte superior de la aplicación.
+3. Inicia una nueva tarea.
+4. Localiza el botón **+** o la opción para adjuntar fuentes.
+5. Comprueba que puedes seleccionar archivos del dispositivo, OneDrive, SharePoint o Teams.
+6. Abre el panel lateral de la sesión.
+7. Identifica los apartados de progreso, archivos de entrada, archivos de salida, aptitudes, programación y permisos.
+8. Mantén esta sesión abierta para iniciar el primer escenario.
 
 **Resultado Esperado:**
 
-Copilot Chat responderá el primer prompt con texto generado de forma inmediata y correcta. Para el segundo prompt, es probable que ofrezca una respuesta genérica, indique que no puede acceder directamente a tu Outlook, o solicite que copies y pegues el contenido manualmente. Esto ilustra su naturaleza de **asistente de generación de contenido**, no de agente de ejecución.
+La página de Cowork muestra una nueva tarea preparada para recibir instrucciones. El panel lateral permite seguir el progreso, revisar las fuentes, abrir los archivos generados y administrar las programaciones y permisos de la sesión.
 
-**Verificación:**
-
-- [ ] Recibiste una respuesta de texto al primer prompt en menos de 15 segundos.
-- [ ] Pudiste identificar que Copilot Chat **no ejecutó** la tarea multiaplicación del segundo prompt de forma autónoma.
-- [ ] Tienes anotadas al menos 3 observaciones sobre las características de Copilot Chat.
 
 ---
 
-#### Paso 1.2 — Acceder a Copilot Cowork y explorar su interfaz diferenciada
+### Parte 2: De la reunión a la ejecución
 
-**Objetivo:** Identificar los elementos visuales y funcionales que distinguen a Copilot Cowork de Copilot Chat.
+**Tiempo estimado:** 20 minutos
+
+#### Paso 2.1 — Agregar la reunión y el contexto relacionado
+
+**Objetivo:** reunir en una misma tarea las fuentes que Cowork utilizará para analizar el caso, crear entregables y preparar acciones posteriores.
 
 **Instrucciones:**
 
-1. Dentro de Microsoft Teams, busca la sección de **Copilot** y localiza la opción para acceder a **Copilot Cowork** (puede aparecer como una pestaña separada, un agente específico o una opción en el menú de Copilot según la versión de tu tenant).
-
-   > 💡 **Nota:** En algunos tenants, Copilot Cowork aparece como una aplicación separada en la barra lateral de Teams o como una opción dentro del menú de Copilot bajo el nombre "Agentes" o "Cowork". Si tienes dudas sobre dónde encontrarlo, consulta al facilitador antes de continuar.
-
-2. Una vez en la interfaz de Copilot Cowork, observa y documenta las diferencias visuales respecto a Copilot Chat:
-   - ¿Hay indicadores de "estado" o "progreso" en la interfaz?
-   - ¿Aparecen referencias a aplicaciones conectadas (Teams, Outlook, Planner, etc.)?
-   - ¿Existe alguna opción para ver los "pasos" o "acciones" que Cowork ejecutará?
-
-3. Escribe el mismo segundo prompt que usaste en el Paso 1.1:
-
-```
-Revisa mis correos de la última semana en Outlook, identifica los tres temas 
-más urgentes y redacta un resumen ejecutivo para mi jefe.
-```
-
-4. Observa el comportamiento de Cowork:
-   - ¿Solicita confirmación antes de acceder a Outlook?
-   - ¿Muestra pasos intermedios de ejecución?
-   - ¿El resultado final es diferente al de Copilot Chat?
-
-5. Completa la siguiente tabla comparativa en tu documento de notas:
-
-```
-| Criterio                          | Copilot Chat | Copilot Cowork |
-|-----------------------------------|--------------|----------------|
-| Accede a aplicaciones M365        |              |                |
-| Muestra pasos de ejecución        |              |                |
-| Requiere instrucciones paso a paso|              |                |
-| Entrega resultado ejecutable      |              |                |
-| Tiempo de respuesta               |              |                |
-```
+1. En Cowork, selecciona la opción para agregar contexto o adjuntar archivos.
+2. Agrega la reunión **Expansión Compra y Recoge - Seguimiento operativo**.
+3. Agrega la conversación posterior de Teams asociada a la reunión.
+4. Agrega `01_Reunion_y_contexto.docx` desde OneDrive.
+5. Comprueba en la carpeta de entrada del panel lateral que las fuentes fueron incorporadas.
+6. Abre la vista previa del documento y confirma que corresponde al caso de Comercializadora Valle Azul S.A.S.
 
 **Resultado Esperado:**
 
-Copilot Cowork debería iniciar un proceso de ejecución visible: acceder a Outlook, procesar los correos disponibles, identificar los temas urgentes y generar un resumen estructurado. La interfaz mostrará indicadores de progreso o pasos intermedios, lo que contrasta directamente con la respuesta estática de Copilot Chat.
+Cowork dispone de la transcripción, la conversación posterior y el contexto empresarial necesarios para identificar decisiones, compromisos, riesgos y dependencias.
 
-**Verificación:**
 
-- [ ] Identificaste al menos 3 diferencias visuales entre las interfaces de Copilot Chat y Copilot Cowork.
-- [ ] Copilot Cowork inició un proceso de ejecución multietapa (no solo generó texto).
-- [ ] Completaste la tabla comparativa con observaciones propias.
+#### Paso 2.2 — Delegar el análisis y la preparación de acciones
 
----
-
-### Parte 2: Ejercicio Comparativo Directo — Delegación vs. Generación
-
-**Tiempo estimado:** 10 minutos
-
----
-
-#### Paso 2.1 — Ejecutar el ejercicio comparativo con una tarea de análisis
-
-**Objetivo:** Experimentar de forma directa y documentada la diferencia entre generar contenido y delegar trabajo, usando la misma tarea en ambas herramientas.
+**Objetivo:** transformar la reunión en un resumen ejecutivo, acciones de seguimiento y comunicaciones.
 
 **Instrucciones:**
 
-1. Abre el archivo **ventas_ficticias_Q3.xlsx** desde tu carpeta `Lab-Cowork-Practica` en OneDrive.
+1. Copia el siguiente prompt en Cowork.
+2. Revisa que los nombres de las fuentes coincidan con los elementos agregados.
+3. Envía la solicitud.
 
-2. **Primero, en Copilot Chat:** Escribe el siguiente prompt:
+```text
+Actúa como coordinador ejecutivo de la expansión del servicio Compra y Recoge.
 
+Analiza la reunión, la conversación posterior de Teams y el contexto empresarial
+proporcionado.
+
+Realiza estas actividades:
+
+1. Identifica las decisiones, acuerdos, compromisos, riesgos, bloqueos y dependencias.
+2. Diferencia claramente los hechos confirmados, las inferencias y la información
+   que todavía debe validarse.
+3. Crea un resumen ejecutivo en Word de máximo dos páginas, orientado a la toma
+   de decisiones.
+4. Incluye una tabla de acciones con:
+   - actividad;
+   - responsable;
+   - fecha objetivo;
+   - dependencia;
+   - estado inicial;
+   - criterio de cierre;
+   - fuente que respalda la acción.
+5. Prepara un borrador de correo para los participantes con las decisiones y las
+   acciones asignadas.
+6. Prepara una reunión de revisión de 25 minutos para el próximo martes con los
+   participantes del caso y una agenda de tres puntos.
+7. Destaca los tres riesgos que la dirección debe vigilar durante la próxima semana.
+
+Muéstrame el plan de trabajo. Solicita mi aprobación antes de crear la reunión,
+enviar un correo o publicar un mensaje.
 ```
-Analiza los datos de ventas del tercer trimestre que tengo en Excel y dime 
-cuáles son los tres productos con mayor crecimiento respecto al trimestre anterior.
-```
 
-3. Anota el resultado: ¿Copilot Chat pudo acceder al archivo? ¿Qué respuesta generó?
-
-4. **Ahora, en Copilot Cowork:** Escribe el siguiente prompt de delegación estructurado:
-
-```
-Tarea: Analizar el rendimiento de ventas del Q3.
-
-Contexto: Tengo un archivo llamado "ventas_ficticias_Q3.xlsx" guardado en mi 
-OneDrive en la carpeta "Lab-Cowork-Practica". Contiene datos de ventas por 
-producto para Q2 y Q3 del año en curso.
-
-Acción requerida:
-1. Abre el archivo y revisa los datos de ventas por producto.
-2. Calcula el porcentaje de crecimiento de Q2 a Q3 para cada producto.
-3. Identifica los tres productos con mayor crecimiento.
-4. Genera un resumen ejecutivo de 3 párrafos con los hallazgos principales, 
-   incluyendo una tabla comparativa.
-
-Entregable: Resumen ejecutivo listo para presentar a un directivo.
-```
-
-5. Observa el proceso de ejecución de Cowork y anota:
-   - ¿Accedió al archivo de OneDrive?
-   - ¿Mostró pasos intermedios?
-   - ¿El resultado fue más completo y ejecutable que el de Copilot Chat?
+4. Observa los pasos que Cowork registra en el panel de progreso.
+5. Responde las preguntas de aclaración utilizando únicamente los datos de las fuentes.
+6. Espera a que Cowork genere el resumen y las vistas previas de las acciones.
 
 **Resultado Esperado:**
 
-Copilot Chat ofrecerá orientación general sobre cómo analizar datos o solicitará que pegues los datos manualmente. Copilot Cowork accederá al archivo, procesará los datos y entregará un resumen ejecutivo estructurado con la tabla comparativa solicitada, listo para ser utilizado directamente.
+Cowork genera un resumen ejecutivo, una tabla de acciones, un borrador de correo y la propuesta de una reunión de seguimiento. Las acciones sensibles quedan pendientes de revisión y aprobación.
 
-**Verificación:**
+![Análisis contextual](../images/1.png)
 
-- [ ] Ejecutaste el mismo ejercicio en ambas herramientas y documentaste las diferencias.
-- [ ] Copilot Cowork accedió al archivo de OneDrive sin que copiaras y pegaras los datos manualmente.
-- [ ] El resultado de Cowork incluye un resumen ejecutivo estructurado con tabla comparativa.
+#### Paso 2.3 — Revisar, refinar y aprobar
 
----
-
-### Parte 3: Caso de Uso 1 — Delegación de Análisis en Excel
-
-**Tiempo estimado:** 12 minutos
-
----
-
-#### Paso 3.1 — Construir y ejecutar un prompt de delegación avanzado para Excel
-
-**Objetivo:** Aplicar las buenas prácticas de construcción de prompts de delegación para obtener un análisis ejecutivo completo desde datos de Excel.
+**Objetivo:** validar la precisión de los resultados antes de permitir acciones en Microsoft 365.
 
 **Instrucciones:**
 
-1. Asegúrate de que el archivo **ventas_ficticias_Q3.xlsx** sigue abierto en Excel y accesible desde OneDrive.
+1. Abre el documento generado desde la carpeta de salida.
+2. Comprueba cada cifra, responsable y fecha contra las fuentes.
+3. Revisa la vista previa del correo.
+4. Revisa la vista previa de la reunión.
+5. Utiliza el siguiente prompt cuando encuentres información no respaldada:
 
-2. En Copilot Cowork, escribe el siguiente prompt de delegación estructurado. Observa cómo está construido: incluye **contexto**, **objetivo claro**, **pasos específicos** y **formato de entregable**:
-
-```
-Contexto: Soy gerente comercial y necesito presentar el desempeño de ventas 
-del Q3 a la dirección general en una reunión mañana.
-
-Archivo de trabajo: "ventas_ficticias_Q3.xlsx" en mi OneDrive, 
-carpeta "Lab-Cowork-Practica".
-
-Objetivo: Preparar un análisis ejecutivo completo del desempeño de ventas Q3.
-
-Tareas a ejecutar:
-1. Revisa todos los datos del archivo (ventas por producto, región y mes).
-2. Identifica las 3 métricas de mayor importancia para una presentación directiva.
-3. Detecta cualquier anomalía o tendencia relevante en los datos.
-4. Redacta un informe ejecutivo con: 
-   - Párrafo de resumen (máximo 100 palabras)
-   - Tabla de top 5 productos por volumen de ventas en Q3
-   - Sección de "Puntos de atención" con máximo 3 alertas
-   - Recomendación de acción para el Q4
-
-Formato de entrega: Documento Word estructurado con título, fecha de hoy 
-y secciones claramente delimitadas.
-
-Restricción: Usa solo los datos del archivo proporcionado. No inventes cifras.
+```text
+Revisa nuevamente las fuentes. Conserva únicamente los datos respaldados.
+Marca como "Por confirmar" cualquier responsable, fecha, causa, dependencia o
+compromiso que no esté indicado explícitamente. Mantén sin cambios los elementos
+que sí cuentan con evidencia.
 ```
 
-3. Mientras Cowork ejecuta la tarea, observa y documenta en tiempo real:
-   - Los pasos intermedios que aparecen en la interfaz.
-   - Cualquier solicitud de confirmación o aclaración que haga Cowork.
-   - El tiempo total de ejecución.
-
-4. Cuando recibas el resultado, evalúalo con los siguientes criterios:
-
-```
-Criterios de evaluación del resultado:
-[ ] ¿El informe tiene todas las secciones solicitadas?
-[ ] ¿Los datos citados corresponden al archivo de práctica?
-[ ] ¿El resumen tiene 100 palabras o menos?
-[ ] ¿La tabla de top 5 productos está correctamente formateada?
-[ ] ¿Las recomendaciones son coherentes con los datos presentados?
-```
-
-5. Si algún criterio no se cumple, redacta un **prompt de refinamiento** para corregirlo. Ejemplo:
-
-```
-El informe está bien estructurado, pero la sección de "Puntos de atención" 
-solo tiene 2 alertas. Por favor, agrega una tercera alerta relacionada con 
-la variación de ventas por región. Mantén el resto del documento igual.
-```
+6. Solicita los cambios necesarios.
+7. Aprueba la creación de la reunión cuando los participantes, la fecha y la agenda sean correctos.
+8. Conserva el correo como borrador o aprueba su envío según las indicaciones del facilitador.
 
 **Resultado Esperado:**
 
-Copilot Cowork generará un documento Word estructurado con todas las secciones solicitadas, basado en los datos del archivo de práctica. El proceso mostrará pasos intermedios visibles (lectura del archivo, análisis de datos, generación de secciones). El documento final debería estar listo para presentar con mínimas modificaciones.
+El resumen y las acciones quedan respaldados por las fuentes. Las acciones externas se ejecutan únicamente después de revisar la vista previa correspondiente.
 
-**Verificación:**
 
-- [ ] El documento generado contiene las 4 secciones solicitadas en el prompt.
-- [ ] Los datos del informe corresponden al archivo ventas_ficticias_Q3.xlsx.
-- [ ] Identificaste al menos un aspecto del resultado que podrías refinar con un prompt adicional.
-- [ ] Completaste los criterios de evaluación del resultado.
+#### Paso 2.4 — Programar el seguimiento semanal
 
----
-
-### Parte 4: Caso de Uso 2 — Gestión Inteligente de Correos en Outlook
-
-**Tiempo estimado:** 12 minutos
-
----
-
-#### Paso 4.1 — Delegar la priorización y respuesta de correos a Copilot Cowork
-
-**Objetivo:** Utilizar Copilot Cowork para gestionar una cadena de correos de forma inteligente, incluyendo priorización y redacción de respuestas múltiples.
+**Objetivo:** configurar una revisión periódica que detecte avances, vencimientos y nuevos riesgos.
 
 **Instrucciones:**
 
-1. Abre Microsoft Outlook y accede a la carpeta de práctica preparada por el facilitador (o a tu bandeja de entrada si el facilitador indicó usar correos reales no sensibles).
+1. Envía el siguiente prompt en la misma sesión:
 
-   > ⚠️ **Recordatorio crítico:** Si usas tu bandeja de entrada real, asegúrate de que los correos seleccionados **no contengan información confidencial, datos personales sensibles o información estratégica de la organización**.
+```text
+Programa una revisión semanal cada lunes a las 8:00.
 
-2. Identifica visualmente la carpeta o los correos de práctica. Toma nota del nombre exacto de la carpeta o de los remitentes/asuntos de los correos de práctica.
+En cada ejecución, revisa la reunión, la conversación de Teams, los archivos del
+caso, los correos relacionados y el calendario.
 
-3. En Copilot Cowork, escribe el siguiente prompt de delegación:
+Genera una actualización con:
+- acciones vencidas o próximas a vencer;
+- cambios de estado desde la última revisión;
+- nuevos riesgos o bloqueos;
+- decisiones que requieren intervención;
+- fuentes que respaldan cada cambio;
+- un borrador de correo de seguimiento.
 
-```
-Contexto: Soy directora de operaciones y acabo de regresar de 3 días de 
-viaje. Tengo correos pendientes en Outlook que necesito gestionar 
-eficientemente.
-
-Carpeta de trabajo: [Nombre de la carpeta de práctica indicada por el facilitador]
-
-Tareas a ejecutar:
-1. Revisa todos los correos no leídos en la carpeta indicada.
-2. Clasifícalos en tres categorías: URGENTE, PENDIENTE y PARA INFORMACIÓN.
-3. Para los correos clasificados como URGENTE: redacta una respuesta profesional 
-   y cordial que acuse recibo e indique que daré respuesta detallada antes de 
-   las 5pm de hoy.
-4. Para los correos clasificados como PENDIENTE: redacta un resumen de una línea 
-   con la acción requerida de mi parte.
-5. Genera un reporte de bandeja de entrada con las tres categorías y los correos 
-   correspondientes.
-
-Formato de entrega: 
-- Borradores de respuesta listos en Outlook (no envíes, solo guarda como borrador)
-- Reporte de clasificación en texto estructurado dentro de este chat
-
-Restricción importante: NO envíes ningún correo. Solo guarda borradores.
+Destaca únicamente cambios ocurridos desde la ejecución anterior. Solicita mi
+aprobación antes de enviar comunicaciones o modificar elementos de Microsoft 365.
 ```
 
-4. Observa el proceso de ejecución. Presta especial atención a:
-   - ¿Cowork solicita confirmación antes de crear borradores en Outlook?
-   - ¿Los borradores creados aparecen en la carpeta "Borradores" de Outlook?
-   - ¿La clasificación de correos es coherente con el contenido de los mensajes?
+2. Revisa la programación propuesta.
+3. Confirma la frecuencia, la hora y las fuentes.
+4. Selecciona **Activar y ejecutar ahora** para comprobar el comportamiento inicial.
+5. Revisa el resultado de la primera ejecución.
 
-5. Ve a Outlook y verifica la carpeta **Borradores** para confirmar que los borradores fueron creados correctamente.
-
-6. Abre uno de los borradores y evalúa:
-   - ¿El tono es profesional y apropiado?
-   - ¿El mensaje cumple con lo solicitado (acuse de recibo + compromiso de respuesta)?
-   - ¿Necesita algún ajuste antes de enviarse?
+![Programación de revisión](../images/2.png)
 
 **Resultado Esperado:**
 
-Copilot Cowork accederá a la carpeta de Outlook indicada, clasificará los correos en las tres categorías, creará borradores de respuesta para los correos urgentes y generará el reporte de clasificación. Los borradores deberían aparecer en la carpeta "Borradores" de Outlook con el asunto y destinatario correctos.
-
-**Verificación:**
-
-- [ ] Copilot Cowork accedió a Outlook sin que proporcionaras el contenido de los correos manualmente.
-- [ ] Aparecen borradores nuevos en la carpeta "Borradores" de Outlook.
-- [ ] El reporte de clasificación muestra las tres categorías con los correos correspondientes.
-- [ ] Los borradores tienen un tono profesional y cumplen con el objetivo del prompt.
-- [ ] Confirmaste que ningún correo fue enviado (solo guardado como borrador).
+La tarea aparece en la sección de programaciones y ejecuta una primera revisión basada en las fuentes del caso.
 
 ---
 
-### Parte 5: Caso de Uso 3 — Planificación de Proyectos en Planner
+### Parte 3: Del correo a la coordinación
 
-**Tiempo estimado:** 12 minutos
+**Tiempo estimado:** 20 minutos
 
----
+#### Paso 3.1 — Agregar la solicitud estratégica y sus fuentes relacionadas
 
-#### Paso 5.1 — Crear un plan de proyecto completo en Planner desde una descripción de objetivos
-
-**Objetivo:** Delegar a Copilot Cowork la creación estructurada de un plan de proyecto en Microsoft Planner a partir de una descripción de objetivos de negocio en lenguaje natural.
+**Objetivo:** reunir en una sola tarea el requerimiento, las respuestas de las áreas y el contexto del piloto.
 
 **Instrucciones:**
 
-1. Abre el archivo **descripcion_proyecto_ficticio.docx** desde tu carpeta `Lab-Cowork-Practica` en OneDrive. Lee el contenido para familiarizarte con el proyecto ficticio (no más de 2 minutos).
-
-2. Accede a Microsoft Planner en tu navegador: `https://tasks.office.com`
-
-3. Verifica que tienes permisos para crear un nuevo plan. Si no los tienes, notifica al facilitador.
-
-4. En Copilot Cowork, escribe el siguiente prompt de delegación:
-
-```
-Contexto: Soy gerente de transformación digital y necesito estructurar un 
-nuevo proyecto para mi equipo. El proyecto está descrito en el archivo 
-"descripcion_proyecto_ficticio.docx" en mi OneDrive, carpeta "Lab-Cowork-Practica".
-
-Objetivo: Crear un plan de proyecto completo y funcional en Microsoft Planner.
-
-Tareas a ejecutar:
-1. Lee el archivo de descripción del proyecto.
-2. Identifica los objetivos principales, entregables y restricciones mencionados.
-3. Crea un nuevo plan en Microsoft Planner con el nombre del proyecto indicado 
-   en el archivo.
-4. Estructura el plan con los siguientes cubos (buckets):
-   - Fase 1: Diagnóstico y Planificación
-   - Fase 2: Desarrollo y Ejecución  
-   - Fase 3: Validación y Cierre
-5. Crea al menos 3 tareas por cubo, basadas en los entregables del proyecto.
-6. Para cada tarea incluye: título descriptivo, fecha de vencimiento estimada 
-   (distribuidas en 12 semanas desde hoy) y etiqueta de prioridad (Alta/Media/Baja).
-7. Agrega una nota en la descripción del plan con el resumen ejecutivo del proyecto 
-   (máximo 5 líneas).
-
-Entregable: Plan funcional creado en Planner con todas las tareas configuradas.
-
-Restricción: Usa solo la información del archivo. No inventes objetivos o 
-entregables que no estén en el documento.
-```
-
-5. Mientras Cowork ejecuta la tarea, observa:
-   - ¿Muestra los pasos de lectura del archivo, análisis y creación en Planner?
-   - ¿Solicita confirmación antes de crear el plan?
-
-6. Una vez completada la ejecución, abre Microsoft Planner y verifica el nuevo plan:
-   - ¿Aparecen los tres cubos (buckets) solicitados?
-   - ¿Cada cubo tiene al menos 3 tareas?
-   - ¿Las tareas tienen fechas de vencimiento y etiquetas de prioridad?
-
-7. Haz clic en una tarea y verifica que tiene título, fecha y prioridad correctamente configurados.
+1. Inicia una nueva tarea en Cowork.
+2. Agrega la cadena de Outlook con el asunto **Expansión Compra y Recoge - Decisiones y plan de estabilización**.
+3. Confirma que la cadena contiene los siete mensajes importados.
+4. Agrega la reunión y la conversación de Teams utilizadas en el escenario anterior.
+5. Agrega `01_Reunion_y_contexto.docx` y `03_Indicadores_operativos.xlsx`.
+6. Revisa la carpeta de entrada y confirma que todas las fuentes pertenecen al mismo caso.
 
 **Resultado Esperado:**
 
-Copilot Cowork leerá el archivo de descripción del proyecto, estructurará un plan coherente con los objetivos identificados y creará el plan completo en Microsoft Planner con los tres cubos y las tareas correspondientes. El plan debería ser funcional e inmediatamente utilizable por un equipo real.
+Cowork cuenta con la solicitud de Dirección Comercial, las respuestas de Operaciones, Tecnología, Logística, Calidad y Finanzas, el consolidado de coordinación, la reunión y los indicadores del caso.
 
-**Verificación:**
 
-- [ ] Aparece un nuevo plan en Microsoft Planner con el nombre del proyecto ficticio.
-- [ ] El plan tiene exactamente 3 cubos (Fase 1, Fase 2, Fase 3).
-- [ ] Cada cubo tiene al menos 3 tareas con título, fecha de vencimiento y prioridad.
-- [ ] La descripción del plan contiene el resumen ejecutivo del proyecto.
-- [ ] Las tareas están basadas en el contenido del archivo de descripción (no inventadas).
+#### Paso 3.2 — Consolidar antecedentes y preparar una recomendación
 
----
-
-### Parte 6: Reflexión Estructurada y Documentación de Buenas Prácticas
-
-**Tiempo estimado:** 9 minutos
-
----
-
-#### Paso 6.1 — Construir tu guía personal de delegación efectiva
-
-**Objetivo:** Consolidar el aprendizaje del taller documentando buenas prácticas propias de delegación a Copilot Cowork, basadas en los resultados obtenidos en los tres casos de uso.
+**Objetivo:** convertir la cadena de correos y sus fuentes relacionadas en una respuesta ejecutiva y un plan coordinado.
 
 **Instrucciones:**
 
-1. Abre un documento de Word nuevo (puedes pedirle a Copilot Cowork que lo cree por ti como ejercicio adicional).
+1. Copia y envía el siguiente prompt:
 
-2. Titula el documento: **"Mi Guía Personal de Delegación con Copilot Cowork — [Tu nombre] — [Fecha]"**
+```text
+Actúa como responsable de coordinación de la solicitud estratégica sobre la
+expansión del servicio Compra y Recoge.
 
-3. Basándote en tu experiencia en los Pasos 3.1, 4.1 y 5.1, responde las siguientes preguntas y escríbelas en el documento:
+Analiza la cadena de correo y todas las respuestas relacionadas. Complementa el
+análisis con la reunión, la conversación de Teams y el archivo de indicadores.
 
+Realiza estas actividades:
+
+1. Resume el requerimiento, los antecedentes, el criterio de decisión y la fecha límite.
+2. Identifica dependencias, riesgos, información faltante y áreas responsables.
+3. Relaciona cada afirmación importante con la fuente que la respalda.
+4. Distingue las causas confirmadas de las hipótesis todavía abiertas.
+5. Propón una recomendación ejecutiva que indique una de estas opciones:
+   - avanzar;
+   - mantener la expansión en espera;
+   - avanzar bajo condiciones verificables.
+6. Define las condiciones mínimas y medibles para aplicar la recomendación.
+7. Crea un plan de trabajo con:
+   - actividad;
+   - responsable sugerido;
+   - fecha objetivo;
+   - dependencia;
+   - evidencia requerida;
+   - hito de revisión.
+8. Prepara un borrador de respuesta para la directora Comercial.
+9. Prepara mensajes de coordinación específicos para Logística, Calidad,
+   Comercial y Finanzas.
+
+Muéstrame la recomendación y el plan antes de ejecutar acciones. Solicita mi
+aprobación antes de enviar correos o publicar mensajes.
 ```
-SECCIÓN 1: Anatomía de un buen prompt de delegación
-Pregunta: ¿Qué elementos estuvieron presentes en los prompts que generaron 
-los mejores resultados? Lista al menos 5 componentes con una descripción breve.
 
-SECCIÓN 2: Cuándo usar Copilot Chat vs. Copilot Cowork
-Pregunta: Basándote en lo que observaste hoy, completa esta tabla:
+2. Sigue el progreso en el panel lateral.
+3. Revisa las fuentes citadas por Cowork.
+4. Abre el documento o la respuesta estructurada generada.
 
-| Tipo de tarea                          | Herramienta ideal | Por qué          |
-|----------------------------------------|-------------------|------------------|
-| Generar un texto de presentación       |                   |                  |
-| Analizar datos de múltiples archivos   |                   |                  |
-| Responder una pregunta rápida          |                   |                  |
-| Crear un plan de proyecto completo     |                   |                  |
-| Resumir el contenido de un documento   |                   |                  |
-| Gestionar bandeja de entrada de correos|                   |                  |
-
-SECCIÓN 3: Mis 3 reglas personales de delegación efectiva
-Pregunta: ¿Qué tres principios aplicarás en tu trabajo diario al delegar 
-tareas a Copilot Cowork? Escríbelos como reglas accionables.
-
-SECCIÓN 4: Limitaciones identificadas
-Pregunta: ¿En qué momentos Copilot Cowork no cumplió exactamente con lo 
-esperado? ¿Cómo podrías mejorar el prompt para obtener un mejor resultado?
-```
-
-4. Comparte tu documento con el facilitador o con un compañero para recibir retroalimentación (opcional según instrucciones del facilitador).
-
-5. Guarda el documento en tu carpeta `Lab-Cowork-Practica` en OneDrive con el nombre:
-   `GuiaDelegacion_[TuNombre]_Lab01.docx`
+![Antecedentes y recomendación](../images/3.png)
 
 **Resultado Esperado:**
 
-Un documento personal de referencia con al menos 4 secciones completadas, que refleje observaciones reales del taller. Este documento servirá como guía práctica para el uso de Copilot Cowork en el contexto laboral real del participante.
+Cowork consolida los antecedentes, identifica las dependencias, propone una recomendación respaldada, crea un plan de trabajo y prepara comunicaciones diferenciadas por área.
 
-**Verificación:**
+#### Paso 3.3 — Validar la recomendación y las comunicaciones
 
-- [ ] El documento tiene las 4 secciones con respuestas basadas en la experiencia del taller.
-- [ ] La tabla de la Sección 2 está completada con criterios propios.
-- [ ] Las 3 reglas de la Sección 3 son accionables y específicas (no genéricas).
-- [ ] El documento está guardado en OneDrive con el nombre correcto.
+**Objetivo:** asegurar que la respuesta ejecutiva no mezcle hechos comprobados con suposiciones.
+
+**Instrucciones:**
+
+1. Revisa la recomendación contra el resumen de indicadores.
+2. Comprueba que el costo estimado de la alternativa logística no supera la contingencia indicada.
+3. Comprueba que la afectación logística de Norte esté separada del problema de calidad de Sur.
+4. Comprueba que el 7,8 % de no conformidades se presente como resultado de una muestra de 385 pedidos.
+5. Comprueba que la contingencia de COP 20.000.000 aparezca como pendiente de aprobación.
+6. Comprueba que la propuesta logística de COP 18.600.000 esté condicionada a aceptación y evidencia.
+7. Revisa el tono y los destinatarios de cada mensaje.
+8. Utiliza este prompt para corregir el resultado:
+
+```text
+Ajusta la recomendación para que cada condición sea verificable mediante un
+indicador, una fecha y una evidencia. Separa en tres apartados:
+1. Hechos confirmados.
+2. Hipótesis pendientes de validación.
+3. Información faltante para decidir.
+
+Mantén sin cambios las cifras respaldadas por las fuentes.
+```
+
+9. Aprueba únicamente los borradores o mensajes indicados por el facilitador.
+
+**Resultado Esperado:**
+
+La recomendación presenta una lógica verificable y las comunicaciones son consistentes con las evidencias del caso.
+
+
+#### Paso 3.4 — Programar la revisión diaria del caso
+
+**Objetivo:** detectar nuevas respuestas, documentos y cambios relevantes sin repetir búsquedas manuales.
+
+**Instrucciones:**
+
+1. Envía el siguiente prompt:
+
+```text
+Programa una revisión diaria a las 16:00 hasta el próximo viernes.
+
+En cada ejecución, revisa la cadena de Outlook, las conversaciones relacionadas,
+los documentos agregados y los indicadores del caso.
+
+Genera una actualización ejecutiva que indique:
+- qué cambió desde la ejecución anterior;
+- qué dependencia fue resuelta;
+- qué información continúa pendiente;
+- qué riesgo aumentó o disminuyó;
+- qué evidencia nueva apareció;
+- qué decisión necesita atención.
+
+Prepara un borrador de actualización para la directora Comercial y solicita
+mi aprobación antes de enviarlo.
+```
+
+2. Revisa las fechas de inicio y finalización.
+3. Confirma la hora de ejecución.
+4. Activa la programación.
+5. Ejecuta una primera revisión para validar el formato.
+
+![Programación de revisión diaria](../images/4.png)
+
+**Resultado Esperado:**
+
+Cowork crea una programación temporal que resume únicamente cambios relevantes y prepara una actualización ejecutiva para revisión.
+
+---
+
+### Parte 4: De los datos a la toma de decisiones
+
+**Tiempo estimado:** 20 minutos
+
+#### Paso 4.1 — Agregar el libro de indicadores y las fuentes de contexto
+
+**Objetivo:** analizar los resultados numéricos junto con la información que explica su comportamiento.
+
+**Instrucciones:**
+
+1. Inicia una nueva tarea en Cowork.
+2. Agrega `03_Indicadores_operativos.xlsx`.
+3. Agrega la reunión de Teams y `01_Reunion_y_contexto.docx`.
+4. Agrega la cadena de Outlook importada desde los archivos `.eml`.
+5. Abre la vista previa del libro.
+6. Confirma que Cowork puede consultar las hojas **Indicadores**, **Metas**, **Tecnologia**, **Presupuesto**, **Resumen** y **Diccionario**.
+
+**Resultado Esperado:**
+
+Cowork dispone de las cifras del piloto y de las fuentes necesarias para investigar sus posibles causas y consecuencias.
+
+#### Paso 4.2 — Delegar el análisis de indicadores
+
+**Objetivo:** identificar tendencias, anomalías y desviaciones, y relacionarlas con evidencias del caso.
+
+**Instrucciones:**
+
+1. Copia y envía el siguiente prompt:
+
+```text
+Actúa como analista ejecutivo del piloto de Compra y Recoge.
+
+Analiza el archivo de indicadores y relaciona los hallazgos con la reunión,
+la conversación de Teams y la cadena de correos proporcionadas.
+
+Realiza estas actividades:
+
+1. Identifica tendencias, anomalías y variaciones significativas por región y semana.
+2. Compara entregas a tiempo, devoluciones, no conformidades, backlog, costo logístico,
+   tiempo de preparación y CSAT con las metas definidas en el libro.
+3. Explica qué está ocurriendo en cada región.
+4. Diferencia:
+   - causas confirmadas por las fuentes;
+   - causas probables;
+   - hipótesis pendientes de validación.
+5. Describe las posibles consecuencias operativas, financieras, comerciales y
+   de experiencia del cliente.
+6. Propón acciones de mejora con:
+   - prioridad;
+   - responsable sugerido;
+   - fecha objetivo;
+   - indicador objetivo;
+   - evidencia de cierre.
+7. Crea un informe ejecutivo en Word con:
+   - resumen para dirección;
+   - tabla de hallazgos por región;
+   - riesgos prioritarios;
+   - acciones recomendadas;
+   - decisiones requeridas.
+8. Prepara un borrador de comunicación para la dirección y mensajes específicos
+   para las áreas involucradas.
+
+Conserva las cifras del archivo y relaciona cada explicación con su fuente.
+Solicita mi aprobación antes de enviar o publicar comunicaciones.
+```
+
+2. Sigue el progreso de lectura, análisis y creación del informe.
+3. Abre el documento generado.
+4. Compara las cifras con el libro de Excel.
+
+![Análisis de indicadores](../images/5.png)
+
+**Resultado Esperado:**
+
+Cowork genera un informe que muestra las variaciones por región, explica su contexto, separa evidencias e hipótesis y propone acciones medibles.
+
+
+#### Paso 4.3 — Refinar el análisis y preparar decisiones
+
+**Objetivo:** convertir el informe en un elemento útil para la decisión empresarial.
+
+**Instrucciones:**
+
+1. Comprueba que el informe no atribuya automáticamente todas las variaciones a una única causa.
+2. Revisa que los riesgos estén priorizados por impacto y urgencia.
+3. Comprueba que cada acción se relacione con un indicador.
+4. Utiliza el siguiente prompt de refinamiento:
+
+```text
+Reorganiza el informe para facilitar la decisión de dirección.
+
+Incluye una tabla final con estas columnas:
+- decisión requerida;
+- región afectada;
+- evidencia principal;
+- riesgo de no actuar;
+- acción recomendada;
+- responsable sugerido;
+- fecha límite.
+
+Conserva las cifras originales y señala expresamente cualquier explicación que
+continúe siendo una hipótesis.
+```
+
+5. Revisa la tabla final.
+6. Revisa las comunicaciones propuestas antes de aprobar cualquier acción.
+
+**Resultado Esperado:**
+
+El informe concluye con decisiones concretas y trazables a cifras, riesgos y evidencias.
+
+#### Paso 4.4 — Programar el reporte semanal de indicadores
+
+**Objetivo:** generar un reporte periódico que destaque desviaciones nuevas y decisiones requeridas.
+
+**Instrucciones:**
+
+1. Envía el siguiente prompt:
+
+```text
+Programa un reporte semanal todos los viernes a las 15:00.
+
+Revisa la versión más reciente del archivo de indicadores y las fuentes relacionadas.
+Genera un reporte que incluya:
+- cambios frente a la semana anterior;
+- regiones fuera de meta;
+- nuevas anomalías;
+- causas confirmadas e hipótesis pendientes;
+- acciones que necesitan escalamiento;
+- tres decisiones recomendadas para la siguiente semana.
+
+Prepara un borrador de comunicación ejecutiva. Solicita mi aprobación antes de
+enviarlo y conserva las cifras originales del libro.
+```
+
+2. Confirma la frecuencia y la hora.
+3. Activa la programación.
+4. Ejecuta una primera prueba.
+5. Revisa que el reporte se concentre en variaciones nuevas.
+
+![Reporte semanal de indicadores](../images/6.png)
+
+**Resultado Esperado:**
+
+Cowork crea un reporte semanal programado, basado en la versión más reciente del libro y sus fuentes relacionadas.
+
+---
+
+### Parte 5: Cierre y revisión de resultados
+
+**Tiempo estimado:** 5 minutos
+
+#### Paso 5.1 — Revisar tareas, archivos y programaciones
+
+**Objetivo:** confirmar que los tres escenarios quedaron completos y que las acciones programadas pueden administrarse.
+
+**Instrucciones:**
+
+1. Abre la vista **Mis tareas** de Cowork.
+2. Confirma que aparecen las tres tareas del taller.
+3. Abre cada tarea y revisa su carpeta de salida.
+4. Confirma que puedes obtener:
+   - el resumen ejecutivo de la reunión;
+   - la recomendación de la solicitud estratégica;
+   - el informe de indicadores.
+5. Abre la sección **Programado**.
+6. Confirma que aparecen las tres programaciones creadas.
+7. Revisa las acciones que necesitan aprobación.
+8. Identifica una decisión, una dependencia y un riesgo que Cowork haya relacionado a través de varias fuentes.
+
+![Revisión de tareas y programaciones](../images/7.png)
+
+**Resultado Esperado:**
+
+Las tres tareas aparecen completas, los archivos generados están disponibles y las programaciones pueden revisarse, pausarse, reanudarse o eliminarse.
 
 ---
 
 ## Validación y Pruebas
 
-Al finalizar todas las partes del laboratorio, realiza la siguiente verificación integral para confirmar que los objetivos de aprendizaje fueron alcanzados.
+Al finalizar todas las partes, utiliza esta sección para comprobar que los objetivos del taller fueron alcanzados.
 
 ### Lista de Verificación Final
 
-| # | Criterio de Validación                                                                                      | Estado |
-|---|-------------------------------------------------------------------------------------------------------------|--------|
-| 1 | Puedes explicar en una oración la diferencia fundamental entre Copilot Chat y Copilot Cowork                | ☐      |
-| 2 | Completaste la tabla comparativa del Paso 1.2 con observaciones propias y específicas                       | ☐      |
-| 3 | El ejercicio comparativo del Paso 2.1 mostró una diferencia clara en el tipo de resultado de cada herramienta| ☐      |
-| 4 | Copilot Cowork generó un informe ejecutivo de Excel con las 4 secciones solicitadas                         | ☐      |
-| 5 | Aparecen borradores de correo en Outlook creados por Copilot Cowork (sin correos enviados)                  | ☐      |
-| 6 | Existe un plan funcional en Microsoft Planner con 3 cubos y al menos 9 tareas totales                       | ☐      |
-| 7 | Tu guía personal de delegación está guardada en OneDrive con las 4 secciones completadas                    | ☐      |
-| 8 | Puedes identificar al menos 2 tipos de tareas donde Copilot Chat es más adecuado que Cowork                 | ☐      |
+| # | Criterio de Validación | Estado |
+|---|---|---|
+| 1 | Los dos archivos de práctica están almacenados en OneDrive y los siete correos fueron importados en Outlook | ☐ |
+| 2 | Cowork analizó la reunión y la conversación relacionada | ☐ |
+| 3 | El resumen de reunión contiene decisiones, riesgos y acciones con responsables | ☐ |
+| 4 | Se preparó un borrador de correo y una reunión de seguimiento | ☐ |
+| 5 | La solicitud estratégica fue consolidada con sus dependencias y fuentes | ☐ |
+| 6 | La recomendación distingue hechos, hipótesis e información faltante | ☐ |
+| 7 | El plan de trabajo contiene actividades, responsables, fechas, evidencias e hitos | ☐ |
+| 8 | Cowork analizó el archivo de indicadores por región y semana | ☐ |
+| 9 | Las cifras del informe coinciden con el libro de Excel | ☐ |
+| 10 | Las explicaciones están relacionadas con correos, reunión o Teams | ☐ |
+| 11 | Las acciones recomendadas contienen indicador objetivo y evidencia de cierre | ☐ |
+| 12 | Las tres programaciones fueron creadas y verificadas | ☐ |
+| 13 | Las acciones sensibles fueron revisadas antes de aprobarse | ☐ |
+| 14 | Los entregables están disponibles en las carpetas de salida | ☐ |
+
+### Criterios de Calidad de los Entregables
+
+| Criterio | Comprobación |
+|---|---|
+| Trazabilidad | Cada afirmación importante puede relacionarse con una fuente |
+| Precisión | Las cifras coinciden con el archivo de Excel |
+| Claridad | Los entregables separan hechos, inferencias e información pendiente |
+| Accionabilidad | Cada acción tiene responsable, fecha, meta y evidencia |
+| Coordinación | Las comunicaciones se adaptan al área o destinatario |
+| Control | Las acciones sensibles se revisan antes de aprobarse |
+| Seguimiento | Las programaciones destacan cambios desde la ejecución anterior |
 
 ### Prueba de Comprensión Conceptual
 
-Responde mentalmente (o por escrito si el facilitador lo solicita) las siguientes preguntas:
+1. **¿Por qué deben agregarse varias fuentes a una misma tarea?**  
+   *Respuesta esperada:* para que Cowork pueda relacionar los datos, los antecedentes, las decisiones y las comunicaciones del mismo caso.
 
-1. **¿Cuáles son los tres pilares técnicos que hacen posible el funcionamiento de Copilot Cowork?** *(Respuesta esperada: Modelo de lenguaje LLM, Orquestación de agentes, Conectores de Microsoft Graph)*
+2. **¿Qué información mínima debe tener una acción de seguimiento?**  
+   *Respuesta esperada:* actividad, responsable, fecha, dependencia, criterio o evidencia de cierre y fuente.
 
-2. **¿Por qué Copilot Cowork puede ejecutar tareas en Outlook o Planner sin que el usuario copie y pegue información manualmente?** *(Respuesta esperada: Porque utiliza los conectores de Microsoft Graph para acceder a los datos organizacionales dentro del perímetro de seguridad del tenant)*
+3. **¿Por qué deben diferenciarse hechos, inferencias e hipótesis?**  
+   *Respuesta esperada:* para evitar que una decisión se base en una explicación no confirmada.
 
-3. **¿Qué elemento de un prompt de delegación es más crítico para obtener un resultado de calidad con Copilot Cowork?** *(Respuesta esperada: El contexto claro + el entregable específico; las respuestas pueden variar pero deben mencionar la especificidad del objetivo y el formato del resultado)*
+4. **¿Qué se debe revisar antes de aprobar un correo, una publicación o una reunión?**  
+   *Respuesta esperada:* destinatarios, contenido, fecha, participantes, archivos adjuntos y alcance de la acción.
+
+5. **¿Qué debe destacar una revisión programada?**  
+   *Respuesta esperada:* cambios desde la ejecución anterior, riesgos nuevos, acciones vencidas, evidencias agregadas y decisiones pendientes.
 
 ---
 
 ## Solución de Problemas
 
-### Problema 1: Copilot Cowork no aparece en la interfaz de Teams
+### Problema 1: Cowork no aparece en Microsoft 365 Copilot
 
-**Síntoma:** Al acceder a la sección de Copilot en Teams, solo aparece la interfaz de Copilot Chat estándar. No hay opción visible de "Cowork", "Agentes" o una interfaz diferenciada para delegación de trabajo.
+**Síntoma:** la cuenta puede abrir Microsoft 365 Copilot, pero Cowork no aparece como opción disponible.
 
-**Causa probable:** La licencia de Microsoft 365 Copilot con Cowork no está activa en el tenant, la funcionalidad está en rollout gradual para la región geográfica del tenant, o la activación de la licencia aún no se ha propagado (puede tardar hasta 24 horas).
-
-**Solución:**
-
-```
-Paso 1: Verifica el estado de tu licencia
-- Accede a: https://portal.office.com
-- Ve a "Mi cuenta" > "Suscripciones" o "Licencias"
-- Confirma que aparece "Microsoft 365 Copilot" como licencia activa
-
-Paso 2: Verifica la disponibilidad en tu tenant
-- Solicita al administrador de TI que confirme si Copilot Cowork 
-  está habilitado en el tenant de la organización
-- URL de administración: https://admin.microsoft.com
-
-Paso 3: Alternativa inmediata para el laboratorio
-- Notifica al facilitador
-- El facilitador activará el modo de demostración en pantalla compartida
-- Completa los ejercicios observando la demostración y documentando 
-  los resultados mostrados como si fueran propios
-- Puedes completar el Paso 6.1 (guía personal) basándote en la demostración
-```
-
-> 📌 **Nota para el facilitador:** Tener preparada la demostración en pantalla compartida como alternativa es crítico. Asegúrate de tener acceso a un tenant con Cowork activo para esta contingencia.
-
----
-
-### Problema 2: Copilot Cowork no puede acceder al archivo de OneDrive o a los correos de Outlook
-
-**Síntoma:** Al ejecutar los prompts de los Pasos 3.1, 4.1 o 5.1, Copilot Cowork responde que no puede encontrar el archivo, que no tiene acceso a la carpeta indicada, o que no puede leer los correos de Outlook. El proceso se detiene o genera un resultado basado en información inventada.
-
-**Causa probable:** El archivo no está correctamente cargado en OneDrive, el nombre del archivo en el prompt no coincide exactamente con el nombre real del archivo, los permisos de acceso de Cowork no están configurados para acceder a OneDrive o Outlook del usuario, o la carpeta tiene un nombre diferente al indicado en el prompt.
+**Causa probable:** la cuenta no tiene la licencia requerida, Cowork no está habilitado para el usuario o el tenant no tiene completada la configuración necesaria.
 
 **Solución:**
 
+```text
+1. Confirma que has iniciado sesión con la cuenta organizacional correcta.
+2. Abre https://m365.cloud.microsoft en una ventana nueva.
+3. Revisa que la cuenta tenga una licencia activa de Microsoft 365 Copilot.
+4. Solicita al administrador que confirme la disponibilidad de Cowork para el usuario.
+5. Cierra sesión, vuelve a iniciar y actualiza la aplicación.
+6. Informa al facilitador antes de comenzar los escenarios.
 ```
-Paso 1: Verifica la ubicación y nombre exacto del archivo
-- Abre OneDrive en el navegador: https://onedrive.live.com
-- Navega a la carpeta "Lab-Cowork-Practica"
-- Confirma el nombre EXACTO del archivo (mayúsculas, espacios, extensión)
-- Ejemplo: "ventas_ficticias_Q3.xlsx" ≠ "Ventas Ficticias Q3.xlsx"
 
-Paso 2: Corrige el prompt con el nombre exacto
-- Modifica el prompt usando el nombre exacto del archivo
-- Incluye la ruta completa si es necesario:
-  "OneDrive > Lab-Cowork-Practica > ventas_ficticias_Q3.xlsx"
+### Problema 2: Cowork no encuentra un archivo, una reunión o una cadena de correo
 
-Paso 3: Verifica los permisos de Copilot Cowork
-- En Teams, accede a la configuración de Copilot
-- Confirma que Cowork tiene permisos para acceder a OneDrive y Outlook
-- Si los permisos no están habilitados, solicita al administrador de TI 
-  que revise la configuración de Microsoft Graph en el tenant
+**Síntoma:** Cowork indica que no puede localizar la fuente o genera un resultado sin utilizarla.
 
-Paso 4: Alternativa si el problema persiste
-- Para el caso de Excel: Abre el archivo en Excel, selecciona todos los datos 
-  (Ctrl+A), cópialos y pégalos directamente en el prompt de Cowork como texto
-- Para el caso de Outlook: Copia el texto de los correos de práctica y 
-  pégalos en el prompt indicando "Aquí están los correos a analizar:"
-- Nota: Esta alternativa limita la demostración de la integración M365, 
-  pero permite completar el ejercicio de construcción de prompts
+**Causa probable:** el nombre no coincide, el archivo no terminó de cargarse, la fuente pertenece a otra cuenta o el usuario no tiene permiso para consultarla.
+
+**Solución:**
+
+```text
+1. Abre la fuente directamente desde OneDrive, Teams u Outlook.
+2. Confirma el nombre exacto y la cuenta utilizada.
+3. Comprueba que tienes permiso para abrirla.
+4. En Cowork, elimina la referencia que falló.
+5. Vuelve a agregar la fuente desde el botón +.
+6. Para los archivos, selecciónalos directamente desde OneDrive o súbelos desde
+   el dispositivo.
+7. Confirma que aparecen en la carpeta de entrada antes de enviar el prompt.
+```
+
+### Problema 3: La tarea permanece sin avanzar
+
+**Síntoma:** el panel de progreso no cambia o Cowork no entrega el resultado.
+
+**Causa probable:** la tarea requiere una aclaración, existe una aprobación pendiente o una fuente no está disponible temporalmente.
+
+**Solución:**
+
+```text
+1. Revisa si la tarea aparece como "Necesita tu entrada".
+2. Abre la conversación y responde cualquier pregunta pendiente.
+3. Revisa las tarjetas de aprobación.
+4. Observa el panel de progreso durante al menos 60 segundos.
+5. Si no cambia, pausa la tarea y reanúdala.
+6. Actualiza la sesión y vuelve a enviar la solicitud cuando sea necesario.
+7. Reduce el número de acciones del prompt si el problema se repite.
+```
+
+### Problema 4: Una acción no debe ejecutarse
+
+**Síntoma:** Cowork presenta una vista previa de correo, reunión, mensaje o modificación que no coincide con la intención del ejercicio.
+
+**Causa probable:** el prompt contiene un destinatario, una fecha o un alcance ambiguo.
+
+**Solución:**
+
+```text
+1. No apruebes la acción.
+2. Selecciona Cancelar en la tarjeta correspondiente.
+3. Indica a Cowork el elemento que debe corregir.
+4. Solicita una nueva vista previa.
+5. Revisa destinatarios, fechas, participantes, contenido y adjuntos.
+6. Aprueba únicamente cuando todos los detalles sean correctos.
+```
+
+### Problema 5: La revisión programada no aparece o no se ejecuta
+
+**Síntoma:** el prompt fue aceptado, pero no aparece en la sección Programado.
+
+**Causa probable:** la programación quedó como borrador, la frecuencia no fue interpretada o no se confirmó su activación.
+
+**Solución:**
+
+```text
+1. Abre Programado en la navegación de Cowork.
+2. Entra en Administrar programaciones.
+3. Busca la solicitud creada durante el escenario.
+4. Revisa hora, frecuencia, fecha final y fuentes.
+5. Activa la programación.
+6. Selecciona Activar y ejecutar ahora para realizar una prueba.
+7. Revisa la ejecución y corrige el prompt cuando el resultado no tenga el
+   formato esperado.
 ```
 
 ---
 
 ## Limpieza del Entorno
 
-Una vez completado el laboratorio, realiza los siguientes pasos para limpiar el entorno de trabajo y evitar acumulación de datos de práctica en el tenant.
+Una vez finalizado el taller, limpia los elementos generados para evitar acciones futuras o acumulación de datos de práctica.
 
-**Tiempo estimado:** 5 minutos
+**Tiempo estimado:** 5 minutos fuera del tiempo de instrucción.
 
 ### Pasos de Limpieza
 
-**1. Eliminar borradores de correo creados durante el laboratorio:**
+#### 1. Pausar o eliminar las programaciones
 
-```
-1. Abre Microsoft Outlook
-2. Ve a la carpeta "Borradores"
-3. Selecciona todos los borradores creados durante el laboratorio 
-   (identifícalos por la fecha/hora de creación de hoy)
-4. Elimínalos con la tecla Delete o botón derecho > Eliminar
-5. Vacía la carpeta "Elementos eliminados" para confirmar la limpieza
-```
-
-**2. Eliminar el plan de práctica en Microsoft Planner:**
-
-```
-1. Accede a Microsoft Planner: https://tasks.office.com
-2. Localiza el plan creado durante el laboratorio (nombre del proyecto ficticio)
-3. Haz clic en los tres puntos (...) junto al nombre del plan
-4. Selecciona "Cerrar plan" o "Eliminar plan" según la opción disponible
-5. Confirma la eliminación cuando se solicite
-   NOTA: Esta acción es irreversible. Confirma que es el plan de práctica 
-   y no un plan real de trabajo.
+```text
+1. Abre Cowork.
+2. Selecciona Programado.
+3. Entra en Administrar programaciones.
+4. Localiza las tres programaciones del taller.
+5. Pausa o elimina:
+   - revisión semanal de la reunión;
+   - revisión diaria de la solicitud estratégica;
+   - reporte semanal de indicadores.
+6. Confirma que ninguna programación de práctica permanece activa.
 ```
 
-**3. Archivar (no eliminar) los archivos de OneDrive:**
+#### 2. Revisar comunicaciones y reuniones
 
-```
-1. Abre OneDrive: https://onedrive.live.com
-2. Navega a la carpeta "Lab-Cowork-Practica"
-3. NO elimines esta carpeta — contiene tu guía personal de delegación
-4. Puedes eliminar los archivos de práctica proporcionados por el facilitador 
-   si ya no los necesitas:
-   - ventas_ficticias_Q3.xlsx
-   - correos_practica_template.oft
-   - descripcion_proyecto_ficticio.docx
-5. CONSERVA: GuiaDelegacion_[TuNombre]_Lab01.docx
+```text
+1. Abre Outlook.
+2. Revisa la carpeta Borradores y elimina los mensajes de práctica que no se utilizarán.
+3. Revisa Elementos enviados si se aprobó algún envío durante la demostración.
+4. Abre el calendario y elimina la reunión de seguimiento creada para el caso.
+5. Abre Teams y elimina los mensajes de práctica cuando las políticas del tenant
+   y los permisos lo permitan.
 ```
 
-**4. Cerrar aplicaciones abiertas:**
+#### 3. Eliminar archivos generados
 
+```text
+1. Abre las tareas completadas en Cowork.
+2. Revisa la carpeta de salida de cada tarea.
+3. Conserva únicamente los entregables requeridos por el facilitador.
+4. En OneDrive, elimina los documentos generados que no deban permanecer.
+5. Vacía la papelera únicamente cuando estés seguro de que los archivos son de práctica.
 ```
-- Cierra las pestañas adicionales del navegador abiertas durante el laboratorio
-- Puedes mantener Teams, Outlook y Excel abiertos si los usas normalmente
-- No es necesario cerrar sesión en las aplicaciones de Microsoft 365
+
+#### 4. Archivar los materiales del taller
+
+```text
+1. Abre OneDrive.
+2. Navega a Taller-Cowork-Expansion.
+3. Conserva los dos archivos originales y la carpeta de correos `.eml` cuando quieras repetir la práctica.
+4. Mueve la carpeta a una ubicación de archivo o elimínala cuando ya no sea necesaria.
 ```
 
 ---
@@ -718,43 +868,41 @@ Una vez completado el laboratorio, realiza los siguientes pasos para limpiar el 
 
 ### Lo que Aprendiste en este Laboratorio
 
-En este taller de 70 minutos, exploraste de forma práctica y directa la distinción fundamental entre **Copilot Chat** (asistente de generación de contenido) y **Copilot Cowork** (agente de ejecución de trabajo autónomo). A través de tres casos de uso empresariales de alto impacto, experimentaste cómo Cowork puede absorber tareas operativas complejas que normalmente consumen horas de trabajo profesional.
+En este taller de 70 minutos utilizaste Copilot Cowork para transformar información distribuida en Microsoft 365 en entregables y acciones coordinadas. La reunión permitió identificar decisiones y compromisos; la cadena de correo permitió consolidar dependencias y preparar una recomendación; el archivo de Excel permitió detectar desviaciones y explicar su contexto mediante fuentes relacionadas.
 
-Los conceptos clave que aplicaste:
-
-| Concepto                         | Aplicación en el Laboratorio                                                                |
-|----------------------------------|---------------------------------------------------------------------------------------------|
-| **Agencia vs. Generación**       | Comparaste directamente ambas herramientas con la misma tarea y observaste la diferencia    |
-| **Orquestación de agentes**      | Observaste los pasos intermedios de ejecución de Cowork en los tres casos de uso            |
-| **Conectores de Microsoft Graph**| Cowork accedió a OneDrive, Outlook y Planner sin que copiaras datos manualmente             |
-| **Prompts de delegación**        | Construiste instrucciones estructuradas con contexto, objetivo, pasos y formato de entrega  |
-| **Perímetro de seguridad M365**  | Todas las acciones de Cowork ocurrieron dentro del tenant sin exponer datos externos        |
+| Concepto | Aplicación en el Laboratorio |
+|---|---|
+| **Trabajo de varios pasos** | Cowork analizó fuentes, creó documentos y preparó acciones dentro de una misma tarea |
+| **Contexto de Microsoft 365** | Se utilizaron reuniones, Teams, Outlook, OneDrive y Excel |
+| **Trazabilidad** | Los hallazgos y recomendaciones se relacionaron con sus fuentes |
+| **Aprobación de acciones** | Se revisaron correos, mensajes y reuniones antes de ejecutarlos |
+| **Análisis contextual** | Las cifras del Excel se explicaron con información de reuniones y correos |
+| **Seguimiento programado** | Se configuraron revisiones periódicas para detectar cambios y riesgos |
 
 ### Principios de Delegación Efectiva Consolidados
 
-Basándote en la experiencia del taller, los prompts de delegación más efectivos para Copilot Cowork comparten estas características:
-
-1. **Contexto claro:** Quién eres, cuál es tu rol y por qué necesitas la tarea.
-2. **Objetivo específico:** Qué resultado final esperas, no solo qué acción realizar.
-3. **Pasos estructurados:** Una lista numerada de acciones intermedias cuando la tarea es compleja.
-4. **Formato de entregable:** Cómo debe presentarse el resultado (Word, tabla, borrador en Outlook, etc.).
-5. **Restricciones explícitas:** Qué NO debe hacer Cowork (no enviar correos, no inventar datos, etc.).
+1. **Define el objetivo empresarial:** indica qué decisión o resultado debe apoyar la tarea.
+2. **Agrega fuentes específicas:** incorpora únicamente reuniones, correos, conversaciones y archivos relacionados.
+3. **Describe las acciones:** enumera los pasos y los entregables esperados.
+4. **Exige evidencia:** solicita la fuente que respalda cada afirmación relevante.
+5. **Separa hechos e hipótesis:** marca la información pendiente de confirmación.
+6. **Establece criterios de calidad:** define formato, extensión, fechas, indicadores y criterios de cierre.
+7. **Revisa antes de aprobar:** comprueba destinatarios, contenido, fechas, participantes y permisos.
+8. **Programa el seguimiento:** define frecuencia, fuentes, cambios que deben detectarse y forma de comunicar el resultado.
 
 ### Próximos Pasos
 
-- **Lección 1.2:** Profundiza en la distinción entre delegar trabajo y generar contenido con ejemplos avanzados de cada modelo.
-- **Lección 1.3:** Explora los tipos de tareas que Copilot Cowork puede ejecutar y sus límites actuales.
-- **Práctica autónoma:** Elige una tarea real de tu trabajo (con datos no sensibles) y aplica el modelo de delegación estructurada que practicaste hoy.
+Repite el flujo con un caso de prueba propio que utilice información no sensible. Mantén la misma secuencia: agregar fuentes, definir el resultado, revisar el plan, validar evidencias, aprobar acciones y configurar seguimiento.
 
 ### Recursos Adicionales
 
-| Recurso                                                                                                                                  | Descripción                                                    |
-|------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| [Documentación oficial de Microsoft 365 Copilot](https://learn.microsoft.com/es-es/microsoft-365-copilot/microsoft-365-copilot-overview) | Introducción oficial a las capacidades de Copilot y Cowork     |
-| [Microsoft Graph: Acceso a datos organizacionales](https://learn.microsoft.com/es-es/graph/overview)                                     | Cómo Cowork accede a los datos del tenant a través de Graph    |
-| [Blog de Microsoft: Wave 2 de Copilot](https://www.microsoft.com/es-es/microsoft-365/blog/2024/09/16/introducing-microsoft-365-copilot-wave-2/) | Anuncio oficial de las capacidades de agente en M365 Copilot   |
-| [Microsoft Copilot Studio — Orquestación de agentes](https://learn.microsoft.com/es-es/microsoft-copilot-studio/fundamentals-what-is-copilot-studio) | Arquitectura técnica de la orquestación de agentes en Copilot  |
+| Recurso | Descripción |
+|---|---|
+| [Introducción a Copilot Cowork](https://learn.microsoft.com/es-es/microsoft-365/copilot/cowork/) | Capacidades, acciones disponibles y administración del trabajo |
+| [Introducción y requisitos de Cowork](https://learn.microsoft.com/es-es/microsoft-365/copilot/cowork/get-started) | Licencia, habilitación, facturación basada en uso y primeros pasos |
+| [Uso de Copilot Cowork](https://learn.microsoft.com/es-es/microsoft-365/copilot/cowork/use-cowork) | Sesiones, archivos, panel lateral, aprobaciones, tareas y programaciones |
+| [Importación masiva de archivos EML](https://support.microsoft.com/es-es/office/importar-eml-archivos-en-masa-en-el-nuevo-outlook-0ec85d73-fb14-41f6-8b8e-0e7647fa7db1) | Procedimiento oficial para importar los correos del taller en el nuevo Outlook |
 
 ---
 
-*Laboratorio desarrollado para el Módulo 1.0 del curso de Microsoft 365 Copilot Cowork. Versión 1.0.*
+*Laboratorio desarrollado para el Módulo 2 del curso de Microsoft 365 Copilot Cowork. Versión 1.0.*
